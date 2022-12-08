@@ -9,7 +9,7 @@ const Form = () => {
   const [contents, setContents] = useState("");
 
   const dispatch = useDispatch();
-  const todolists = useSelector((state) => state.todos.lists);
+  // const todolists = useSelector((state) => state.todos.lists);
 
   const onChangeTitle = (e) => {
     setTitle(e.target.value);
